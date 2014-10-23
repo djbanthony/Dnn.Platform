@@ -281,7 +281,7 @@ namespace DotNetNuke.Security.Roles
         /// </summary>
         /// <value>An integer representing the number of users</value>
         /// -----------------------------------------------------------------------------
-        public int UserCount { get; private set; }
+        public int UserCount { get; protected set; }
 
         public string PhotoURL
         {
